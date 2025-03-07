@@ -1,0 +1,61 @@
+# PowerShell logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio Code settings
+.vscode/
+*.code-workspace
+
+# PowerShell Studio files
+*.psproj
+*.psprojs
+*.restx
+*.psbuild
+
+# Module manifest backups
+*.psd1.backup
+
+# Package management
+packages/
+*.nupkg
+
+# Local configuration files
+*.local.ps1
+*_local.ps1
+config.local.json
+
+# Action1 specific
+notification_history.json
+
+# Credentials and secrets
+*.pfx
+*.key
+*.crt
+*.pem
+*.env
+credentials.ps1
+secrets.ps1
+
+# Test results
+TestResults/
+*.coverage
+*.trx
+
+# Documentation generation
+docs/_site/
+docs/_build/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon? 
