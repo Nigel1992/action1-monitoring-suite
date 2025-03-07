@@ -1,0 +1,89 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees:
+  - Nigel1992
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new feature!
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: Feature Type
+      description: What type of feature are you suggesting?
+      options:
+        - New script
+        - Enhancement to existing script
+        - New notification method
+        - Performance improvement
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected-script
+    attributes:
+      label: Affected Script
+      description: Which script would this feature enhance? (Select N/A for new scripts)
+      options:
+        - System-Maintenance.ps1
+        - Security-Check.ps1
+        - Software-Update-Check.ps1
+        - Notification-Module.ps1
+        - N/A (New script)
+        - Other (specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of what the problem is.
+      placeholder: "I'm always frustrated when [...]"
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+      placeholder: "The script should be able to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+      placeholder: "I've tried solving this by..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: "This would be useful in environments where..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this feature request, you agree to follow our Contributing Guidelines
+      options:
+        - label: I have read and agree to the project's Contributing Guidelines
+          required: true
+        - label: I have verified this feature hasn't already been requested
+          required: true 

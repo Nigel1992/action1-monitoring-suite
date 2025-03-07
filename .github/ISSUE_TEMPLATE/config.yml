@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Action1 Monitoring Suite Documentation
+    url: https://github.com/Nigel1992/action1-monitoring-suite/wiki
+    about: Check our documentation before creating an issue
+  - name: Action1 RMM Support
+    url: https://www.action1.com/contact-us/
+    about: Contact Action1 for issues specific to the RMM platform
+  - name: PowerShell Documentation
+    url: https://docs.microsoft.com/en-us/powershell/
+    about: Official PowerShell documentation for scripting reference 

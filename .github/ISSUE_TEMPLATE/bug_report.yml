@@ -1,0 +1,103 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - Nigel1992
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: input
+    id: script
+    attributes:
+      label: Affected Script
+      description: Which script is experiencing the issue?
+      placeholder: "e.g., System-Maintenance.ps1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Windows Version
+      description: What version of Windows are you running?
+      options:
+        - Windows 11
+        - Windows 10
+        - Windows Server 2022
+        - Windows Server 2019
+        - Windows Server 2016
+        - Other (specify in environment details)
+    validations:
+      required: true
+
+  - type: input
+    id: powershell-version
+    attributes:
+      label: PowerShell Version
+      description: What version of PowerShell are you running? (Get-Host | Select-Object Version)
+      placeholder: "e.g., 5.1.19041.2364"
+    validations:
+      required: true
+
+  - type: input
+    id: action1-version
+    attributes:
+      label: Action1 Version
+      description: What version of Action1 RMM are you using?
+      placeholder: "e.g., 3.1.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: "A clear and concise description of what the bug is."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Run command '....'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code.
+      render: powershell
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Additional Environment Details
+      description: Any other environment details that might be relevant?
+      placeholder: |
+        - Special configurations
+        - Network setup
+        - Other relevant software versions
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Contributing Guidelines
+      options:
+        - label: I have read and agree to the project's Contributing Guidelines
+          required: true
+        - label: I have verified this issue hasn't already been reported
+          required: true 
