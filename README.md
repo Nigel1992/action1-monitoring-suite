@@ -1,7 +1,5 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Nigel1992)
 
-> **Support this project* All donations go towards your chosen charity. You can pick any charity you'd like, and 5% is retained for Ko-Fi development costs. As a thank you, your name will be listed as a supporter/donor in this project. Feel free to email me at thedjskywalker@gmail.com for proof! :)
-
 # 🚀 Action1 Advanced Monitoring Suite
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Nigel1992/action1-monitoring-suite)
