@@ -1,6 +1,6 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Nigel1992)
 
-> **Support this project!** All donations go towards your chosen charity. You can pick any charity you'd like, and 5% is retained due to Ko-Fi fees. As a thank you, your name will be listed as a supporter/donor in this project. Feel free to email me at thedjskywalker@gmail.com for proof! :)
+> **Support this project!** All donations go towards your chosen charity. All donations go towards your chosen charity. You can pick any charity you'd like, and I will ensure the funds are sent their way. Please note that standard payment processing fees (Ko-fi & PayPal) will be deducted from the total. As a thank you, your name can be added to the official donor list for this project on GitHub. Feel free to email me at thedjskywalker@gmail.com for proof of the donation or to let me know which charity you've selected! :). As a thank you, your name will be listed as a supporter/donor in this project. Feel free to email me at thedjskywalker@gmail.com for proof! :)
 
 # 🚀 Action1 Advanced Monitoring Suite
 
@@ -136,8 +136,7 @@ $NotificationConfig = @{
 
 All scripts create detailed logs in:
 ```
-C:\ProgramData\Action1\Logs\
-```
+C:\ProgramData\Action1\Logs```
 
 Log files include:
 - maintenance_YYYY-MM-DD.log
@@ -155,8 +154,7 @@ Log files include:
 
 ## 🛠️ Troubleshooting
 
-1. Check log files in C:\ProgramData\Action1\Logs\
-2. Verify PowerShell execution policy
+1. Check log files in C:\ProgramData\Action1\Logs2. Verify PowerShell execution policy
 3. Ensure administrative privileges
 4. Check Action1 agent status
 5. Verify network connectivity
